@@ -52,3 +52,4 @@ Thumbs.db               # Windows
 node_modules/           # Nếu sử dụng npm cho frontend
 dist/                   # Nếu có build frontend
 out/                    # Thư mục output của một số IDE
+/dist/
