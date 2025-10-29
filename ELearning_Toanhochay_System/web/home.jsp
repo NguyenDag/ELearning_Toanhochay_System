@@ -88,54 +88,56 @@
             </div>
 
              <section class="assessment-section">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Hệ thống Đánh giá & Báo cáo Tiến trình</h2>
-                        <p>Công cụ hiện đại giúp phân tích chính xác, cá nhân hoá lộ trình, nâng cao hiệu quả học Toán.</p>
-                    </div>
-                    <div class="assessment-grid">
-                        <div class="assessment-card">
-                            <div class="card-top card-blue">
-                                <i class="fa-solid fa-clipboard-check"></i>
-                                <h3>Phương pháp Đánh giá</h3>
-                                <p>Kết hợp công nghệ AI và kinh nghiệm sư phạm thực tiễn.</p>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Scorecard tích hợp AI đánh giá toàn diện năng lực.</li>
-                                    <li>Điều chỉnh theo kinh nghiệm sư phạm, đảm bảo tính chính xác.</li>
-                                </ul>
-                            </div>
-                        </div>
-                         <div class="assessment-card">
-                            <div class="card-top card-orange">
-                                <i class="fa-solid fa-ruler-combined"></i>
-                                <h3>Tiêu chuẩn Đo lường</h3>
-                                <p>Minh bạch, chính xác với thang điểm chuẩn hóa.</p>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Thang điểm 0-100 và xếp hạng năng lực chuẩn hóa.</li>
-                                    <li>Tích hợp yếu tố thời gian đo lường tốc độ và độ chính xác.</li>
-                                </ul>
-                            </div>
-                        </div>
-                         <div class="assessment-card">
-                            <div class="card-top card-purple">
-                                <i class="fa-solid fa-chart-line"></i>
-                                <h3>Báo cáo Phân tích</h3>
-                                <p>Trực quan, chi tiết về tiến bộ và điểm yếu của học sinh.</p>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Báo cáo toàn diện, theo dõi tiến bộ theo giai đoạn.</li>
-                                    <li>Thống kê năng lực theo từng dạng bài và mức độ khó.</li>
-                                </ul>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="section-header">
+            <h2>Hệ thống Đánh giá & Báo cáo Tiến trình</h2>
+            <p>Công cụ hiện đại giúp phân tích chính xác, cá nhân hoá lộ trình, nâng cao hiệu quả học Toán.</p>
+        </div>
+        <div class="assessment-grid">
+            <div class="assessment-card">
+                <div class="card-top card-blue">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <h3>Phương pháp Đánh giá</h3>
+                    <p>Kết hợp công nghệ AI và kinh nghiệm sư phạm thực tiễn.</p>
+                </div>
+                <div class="card-bottom">
+                    <ul>
+                        <li>Scorecard tích hợp AI đánh giá toàn diện năng lực.</li>
+                        <li>Điều chỉnh theo kinh nghiệm sư phạm, đảm bảo tính chính xác.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="assessment-card">
+                <div class="card-top card-orange">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <h3>Tiêu chuẩn Đo lường</h3>
+                    <p>Minh bạch, chính xác với thang điểm chuẩn hóa.</p>
+                </div>
+                <div class="card-bottom">
+                    <ul>
+                        <li>Thang điểm 0-100 và xếp hạng năng lực chuẩn hóa.</li>
+                        <li>Tích hợp yếu tố thời gian đo lường tốc độ và độ chính xác.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="assessment-card">
+                <div class="card-top card-purple" style="background-image: url('assets/images/bg_danhgia_doluong1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="card-content">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h3>Báo cáo Phân tích</h3>
+                        <p>Trực quan, chi tiết về tiến bộ và điểm yếu của học sinh.</p>
                     </div>
                 </div>
-            </section>
+                <div class="card-bottom">
+                    <ul>
+                        <li>Báo cáo toàn diện, theo dõi tiến bộ theo giai đoạn.</li>
+                        <li>Thống kê năng lực theo từng dạng bài và mức độ khó.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
              <section class="value-propositions">
                  <div class="container">
@@ -145,19 +147,19 @@
                     </div>
                     <div class="value-grid">
                         <div class="value-item">
-                            <div class="value-icon"><img src="<c:url value='/assets/images/icon-student.png'/>" alt="Học sinh"></div>
+                            <div class="value-icon"><img src="<c:url value='/assets/images/ads_hocsinh.png'/>" alt="Học sinh"></div>
                             <div class="value-content"><h3>Học sinh</h3><p>Phát triển tư duy logic, nâng cao thành tích, khám phá niềm vui toán học.</p></div>
                         </div>
                          <div class="value-item">
-                            <div class="value-icon"><img src="<c:url value='/assets/images/icon-teacher.png'/>" alt="Giáo viên"></div>
+                            <div class="value-icon"><img src="<c:url value='/assets/images/ads_giaovien.png'/>" alt="Giáo viên"></div>
                             <div class="value-content"><h3>Giáo viên</h3><p>Công cụ đắc lực trong giảng dạy, quản lý và nâng cao chất lượng đào tạo.</p></div>
                         </div>
                          <div class="value-item">
-                            <div class="value-icon"><img src="<c:url value='/assets/images/icon-parent.png'/>" alt="Phụ huynh"></div>
+                            <div class="value-icon"><img src="<c:url value='/assets/images/ads_phuhuynh.png'/>" alt="Phụ huynh"></div>
                             <div class="value-content"><h3>Phụ huynh</h3><p>Đồng hành cùng con, dễ dàng theo dõi tiến bộ trong học tập.</p></div>
                         </div>
                          <div class="value-item">
-                            <div class="value-icon"><img src="<c:url value='/assets/images/icon-cql.png'/>" alt="CQL Giáo dục"></div>
+                            <div class="value-icon"><img src="<c:url value='/assets/images/ads_truonghoc.png'/>" alt="CQL Giáo dục"></div>
                             <div class="value-content"><h3>CQL Giáo dục</h3><p>Nền tảng hiệu quả, nâng cao chất lượng giảng dạy, đánh giá minh bạch.</p></div>
                         </div>
                     </div>
