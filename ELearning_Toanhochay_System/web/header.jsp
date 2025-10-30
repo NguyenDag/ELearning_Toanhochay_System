@@ -24,21 +24,21 @@
                         <c:choose>
                             <c:when test="${sessionScope.user != null}">
                                 <span class="welcome-message">Xin chào, <strong>${sessionScope.user.username}</strong>!</span>
-                                <a href="<c:url value='/logout' />" class="btn btn-login">Đăng Xuất</a>
+                                <a href="#" class="btn btn-login">Đăng Xuất</a>
                             </c:when>
                             <c:otherwise>
-                                <a href="<c:url value='/register' />" class="btn btn-register">Đăng Ký</a>
-                                <a href="<c:url value='/login' />" class="btn btn-login">Đăng Nhập</a>
+                                <a href="#" class="btn btn-register">Đăng Ký</a>
+                                <a href="#" class="btn btn-login">Đăng Nhập</a>
                             </c:otherwise>
                         </c:choose>
                     </div>
                 </div>  
 
                 <nav class="navbar">
-                    <a href="<c:url value='/' />" class="nav-item active">
+                    <a href="#" class="nav-item active">
                         <i class="fa-solid fa-house"></i> Trang chủ
                     </a>
-                     <a href="<c:url value='/about' />" class="nav-item"> <%-- Added About link --%>
+                     <a href="#" class="nav-item"> <%-- Added About link --%>
                         <i class="fa-solid fa-circle-info"></i> Giới thiệu
                     </a>
 
@@ -91,7 +91,7 @@
                         </div>
                     </div>
 
-                    <a href="<c:url value='/contact' />" class="nav-item"> <%-- Added Contact link --%>
+                    <a href="#" class="nav-item"> <%-- Added Contact link --%>
                         <i class="fa-solid fa-phone-volume"></i> Liên hệ
                     </a>
                 </nav>

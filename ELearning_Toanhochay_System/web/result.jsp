@@ -48,7 +48,7 @@
         .progress-circle { position: relative; width: 160px; height: 160px; border-radius: 50%; display: grid; place-items: center; }
         .progress-circle::before { content: ""; position: absolute; width: 85%; height: 85%; background: white; border-radius: 50%; }
         .score-value { position: relative; font-size: 2.8rem; font-weight: 800; color: var(--primary-color); }
-        .score-total { font-size: 1rem; color: #64748b; font-weight: 500; }
+        .score-total { font-size: 2rem; color: #64748b; font-weight: 500; }
         .result-message h1 { font-weight: 800; color: #1e293b; font-size: 2.5rem; }
         .result-message p { font-size: 1.1rem; color: #475569; }
         
@@ -171,7 +171,7 @@
             </c:forEach>
             
             <div class="cta-buttons">
-                <a href="<c:url value='/Quiz' />" class="btn btn-outline-primary"><i class="fas fa-redo-alt me-2"></i> Làm lại bài thi</a>
+                <a href="<c:url value='/quiz' />" class="btn btn-outline-primary"><i class="fas fa-redo-alt me-2"></i> Làm lại bài thi</a>
                 <a href="<c:url value='/' />" class="btn btn-primary"><i class="fas fa-home me-2"></i> Về Trang Chủ</a>
             </div>
         </div>
