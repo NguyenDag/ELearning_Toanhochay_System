@@ -22,58 +22,54 @@ public class SubmitExamServlet extends HttpServlet {
     public void init() {
         // Chỉ khởi tạo nếu danh sách rỗng để tránh trùng lặp
         if (questions.isEmpty()) {
-            // --- BỔ SUNG GIẢI THÍCH CHO TỪNG CÂU HỎI ---
+    // --- BỔ SUNG GIẢI THÍCH CHO TỪNG CÂU HỎI MÔN TOÁN LỚP 6 ---
 
-            // Question 1
-            Map<String, Object> q1 = new HashMap<>();
-            q1.put("id", 1);
-            q1.put("text", "Trong Java, interface nào là gốc của tất cả các Collection?");
-            q1.put("choices", List.of("List", "Collection", "Set", "Iterable"));
-            // THÊM MỚI: Dòng giải thích
-            q1.put("explanation", "Tất cả các interface trong Collection Framework đều kế thừa từ interface `Iterable`. Cấu trúc kế thừa là: Iterable -> Collection -> List/Set.");
-            questions.add(q1);
-            correctAnswers.put(1, 3);
+    // Question 1
+    Map<String, Object> q1 = new HashMap<>();
+    q1.put("id", 1);
+    q1.put("text", "Số đối của -7 là số nào?");
+    q1.put("choices", List.of("-7", "0", "7", "1"));
+    q1.put("explanation", "Số đối của -7 là 7 vì -7 + 7 = 0.");
+    questions.add(q1);
+    correctAnswers.put(1, 2); // "7"
 
-            // Question 2
-            Map<String, Object> q2 = new HashMap<>();
-            q2.put("id", 2);
-            q2.put("text", "Từ khóa 'final' có thể được áp dụng cho thành phần nào sau đây?");
-            q2.put("choices", List.of("Biến", "Phương thức", "Lớp", "Tất cả các đáp án trên"));
-            // THÊM MỚI: Dòng giải thích
-            q2.put("explanation", "Từ khóa `final` có thể dùng cho biến (để tạo hằng số), phương thức (để ngăn override), và lớp (để ngăn kế thừa).");
-            questions.add(q2);
-            correctAnswers.put(2, 3);
+    // Question 2
+    Map<String, Object> q2 = new HashMap<>();
+    q2.put("id", 2);
+    q2.put("text", "Số nhỏ nhất có ba chữ số là số nào?");
+    q2.put("choices", List.of("99", "100", "101", "110"));
+    q2.put("explanation", "Số có ba chữ số nhỏ nhất là 100 vì 99 chỉ có hai chữ số.");
+    questions.add(q2);
+    correctAnswers.put(2, 1); // "100"
 
-            // Question 3
-            Map<String, Object> q3 = new HashMap<>();
-            q3.put("id", 3);
-            q3.put("text", "Phương thức nào được gọi tự động khi một đối tượng được tạo?");
-            q3.put("choices", List.of("Constructor", "Destructor", "Finalize", "Initialize"));
-            // THÊM MỚI: Dòng giải thích
-            q3.put("explanation", "`Constructor` (phương thức khởi tạo) là phương thức đặc biệt được gọi tự động ngay khi một đối tượng mới được tạo ra bằng từ khóa `new`.");
-            questions.add(q3);
-            correctAnswers.put(3, 0);
+    // Question 3
+    Map<String, Object> q3 = new HashMap<>();
+    q3.put("id", 3);
+    q3.put("text", "Một hình vuông có cạnh 5 cm. Chu vi của hình vuông đó là bao nhiêu?");
+    q3.put("choices", List.of("10 cm", "15 cm", "20 cm", "25 cm"));
+    q3.put("explanation", "Chu vi hình vuông được tính bằng công thức P = 4 × cạnh = 4 × 5 = 20 cm.");
+    questions.add(q3);
+    correctAnswers.put(3, 2); // "54"
 
-            // Question 4
-            Map<String, Object> q4 = new HashMap<>();
-            q4.put("id", 4);
-            q4.put("text", "Đâu là một checked exception trong Java?");
-            q4.put("choices", List.of("RuntimeException", "NullPointerException", "IOException", "ArrayIndexOutOfBoundsException"));
-            // THÊM MỚI: Dòng giải thích
-            q4.put("explanation", "`IOException` là một `checked exception`, buộc lập trình viên phải xử lý nó bằng `try-catch` hoặc `throws`. Các ngoại lệ còn lại đều là `unchecked exception` (kế thừa từ `RuntimeException`).");
-            questions.add(q4);
-            correctAnswers.put(4, 2);
+    // Question 4
+    Map<String, Object> q4 = new HashMap<>();
+    q4.put("id", 4);
+    q4.put("text", "Tổng của các góc trong một tam giác bằng bao nhiêu độ?");
+    q4.put("choices", List.of("90°", "120°", "180°", "360°"));
+    q4.put("explanation", "Tổng ba góc trong một tam giác luôn bằng 180° theo định lý hình học cơ bản.");
+    questions.add(q4);
+    correctAnswers.put(4, 2); // "180°"
 
-            // Question 5
-            Map<String, Object> q5 = new HashMap<>();
-            q5.put("id", 5);
-            q5.put("text", "Lớp nào dùng để đọc dữ liệu từ một file?");
-            q5.put("choices", List.of("FileWriter", "FileInputStream", "FileScanner", "FileBuffer"));
-            // THÊM MỚI: Dòng giải thích
-            q5.put("explanation", "`FileInputStream` được sử dụng để đọc dữ liệu dạng byte từ một file. `FileWriter` dùng để ghi dữ liệu vào file.");
-            questions.add(q5);
-            correctAnswers.put(5, 1);
-        }
+    // Question 5
+    Map<String, Object> q5 = new HashMap<>();
+    q5.put("id", 5);
+    q5.put("text", "Phân số nào bằng 1/2?");
+    q5.put("choices", List.of("2/4", "3/4", "4/6", "1/3"));
+    q5.put("explanation", "Phân số 2/4 rút gọn được thành 1/2, nên chúng bằng nhau.");
+    questions.add(q5);
+    correctAnswers.put(5, 0); // "2/4"
+}
+
     }
 
     @Override

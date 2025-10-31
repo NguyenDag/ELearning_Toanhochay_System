@@ -22,9 +22,9 @@
             <section class="banner-carousel">
                 <div class="carousel-wrapper">
                     <div class="carousel-track">
-                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_01.png'/>" alt="Quảng cáo 1"></div>
-                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_02.png'/>" alt="Quảng cáo 2"></div>
-                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_03.png'/>" alt="Quảng cáo 3"></div>
+                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_02.png'/>" alt="Quảng cáo 1"></div>
+                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_03.png'/>" alt="Quảng cáo 2"></div>
+                        <div class="carousel-slide"><img src="<c:url value='/assets/images/banner_01.png'/>" alt="Quảng cáo 3"></div>
                             <%-- Add more slides if needed --%>
                     </div>
                     <%-- Removed commented out buttons, assuming JS adds them or CSS handles this --%>
@@ -69,7 +69,7 @@
                             <img src="<c:url value='/assets/images/banner.jpg' />" alt="Học Toán Online">
                             <div class="banner-overlay">
                                 <div class="banner-content">
-                                    <h1>HỌC TOÁN ONLINE HIỆU QUẢ TRONG</h1>
+                                    <h2>HỌC TOÁN ONLINE HIỆU QUẢ TRONG</h2>
                                     <p class="banner-days">2 THÁNG</p>
                                     <p class="banner-subtitle">DÀNH CHO HỌC SINH CẤP 2</p>
                                     <div class="banner-info">
@@ -95,7 +95,7 @@
                             font-size: 48px;
                             font-weight: 800;
                             ">Hệ thống Học & Đánh giá Thông minh</h2>
-                        <p>Công cụ hiện đại giúp phân tích chính xác, cá nhân hoá lộ trình, nâng cao hiệu quả học Toán.</p>
+                        <p>Công cụ học Toán ứng dụng trí tuệ nhân tạo (AI), giúp học sinh hiểu sâu – nhớ lâu – tiến bộ từng ngày, phụ huynh dễ dàng theo dõi và định hướng.</p>
                     </div>
                     <div class="assessment-grid">
                         <div class="assessment-card">
@@ -104,13 +104,14 @@
                                  background-position: center;
                                  background-repeat: no-repeat;">
                                 <i class="fa-solid fa-clipboard-check"></i>
-                                <h3>Phương pháp Đánh giá</h3>
-                                <p>Kết hợp công nghệ AI và kinh nghiệm sư phạm thực tiễn.</p>
+                                <h3>AI Giải thích Từng bước</h3>
+                                <p>Công nghệ phản hồi thông minh giúp học sinh hiểu “vì sao sai”, không còn sợ Toán.</p>
                             </div>
                             <div class="card-bottom">
                                 <ul>
-                                    <li>Scorecard tích hợp AI đánh giá toàn diện năng lực.</li>
-                                    <li>Điều chỉnh theo kinh nghiệm sư phạm, đảm bảo tính chính xác.</li>
+                                    <li>AI phân tích lỗi và hướng dẫn từng bước.</li>
+                                    <li>Ngôn ngữ thân thiện, học sinh hiểu bản chất thay vì học vẹt.</li>
+                                    <li>Hệ thống học cá nhân hóa phản hồi cho từng học sinh.</li>
                                 </ul>
                             </div>
                         </div>
@@ -120,13 +121,14 @@
                                  background-position: center;
                                  background-repeat: no-repeat;">
                                 <i class="fa-solid fa-ruler-combined"></i>
-                                <h3>Tiêu chuẩn Đo lường</h3>
-                                <p>Minh bạch, chính xác với thang điểm chuẩn hóa.</p>
+                                <h3>Dashboard & Báo cáo Phụ huynh</h3>
+                                <p>Phụ huynh an tâm, con tự tin – mọi tiến trình học tập được hiển thị rõ ràng.</p>
                             </div>
                             <div class="card-bottom">
                                 <ul>
-                                    <li>Thang điểm 0-100 và xếp hạng năng lực chuẩn hóa.</li>
-                                    <li>Tích hợp yếu tố thời gian đo lường tốc độ và độ chính xác.</li>
+                                    <li>Báo cáo tiến độ theo ngày, tuần, tháng.</li>
+                                    <li>Biểu đồ năng lực (heatmap) và gợi ý ôn tập phù hợp từng học sinh.</li>
+                                    <li>Cảnh báo thông minh khi học sinh bỏ dở hoặc giảm hiệu suất học.</li>
                                 </ul>
                             </div>
                         </div>
@@ -137,14 +139,15 @@
                                  background-repeat: no-repeat;">
                                 <div class="card-content">
                                     <i class="fa-solid fa-chart-line"></i>
-                                    <h3>Báo cáo Phân tích</h3>
-                                    <p>Trực quan, chi tiết về tiến bộ và điểm yếu của học sinh.</p>
+                                    <h3>Lộ trình Học Thông minh</h3>
+                                    <p>Học ngắn – dễ hiểu – ghi nhớ lâu, phù hợp học sinh THCS, đặc biệt lớp 6.</p>
                                 </div>
                             </div>
                             <div class="card-bottom">
                                 <ul>
-                                    <li>Báo cáo toàn diện, theo dõi tiến bộ theo giai đoạn.</li>
-                                    <li>Thống kê năng lực theo từng dạng bài và mức độ khó.</li>
+                                    <li>Bài học micro-learning 5–8 phút,  học nhanh, giảm mệt mỏi.</li>
+                                    <li>Ôn tập theo chu kỳ giúp ghi nhớ bền vững.</li>
+                                    <li>Biểu đồ tiến bộ cá nhân, giúp học sinh nhận thấy sự cải thiện rõ rệt.</li>
                                 </ul>
                             </div>
                         </div>
@@ -159,7 +162,7 @@
                             font-family: 'Segoe UI', Arial, sans-serif;
                             font-size: 48px;
                             font-weight: 800;
-                            color: #4A00E0;
+                            color: #0066cc;
                             ">Cùng nhau kiến tạo hành trình tri thức</h2>
                         <p>Giải pháp Toán học AI cá nhân hóa cho học sinh, phụ huynh và giáo viên.</p>
                     </div>
@@ -186,13 +189,58 @@
                     </div>
                 </div>
             </section>
+                            <!-- === BẢN TIN ToanHocHay === -->
+            <section class="news-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 style="font-family: 'Segoe UI', Arial, sans-serif; color: #0066cc; font-weight: 800;">Bản Tin ToanHocHay</h2>
+                        <p>
+                            “Cùng khám phá những câu chuyện học Toán thú vị, mẹo học hay và những hành trình chinh phục Toán học nơi mỗi bước tiến nhỏ là một niềm tự hào lớn.”
+                        </p>
+                    </div>
+                    <div class="news-grid">
+                        <!-- Bài 1 -->
+                        <div class="news-card">
+                            <img src="<c:url value='/assets/images/R.jpg'/>" alt="Hướng dẫn nhận ưu đãi 100K">
+                            <div class="news-card-content">
+                                <div class="news-card-date">
+                                    <i class="fa-solid fa-calendar-days"></i> 22 - 10 - 2025
+                                </div>
+                                <h3 class="news-card-title">Hướng dẫn nhận ưu đãi 100K khi đăng ký khóa học Toán tại ToanHocHay</h3>
+                            </div>
+                        </div>
+
+                        <!-- Bài 2 -->
+                        <div class="news-card">
+                            <img src="<c:url value='/assets/images/ảnh bìa bản tin.svg'/>" alt="Khóa học mới">
+                            <div class="news-card-content">
+                                <div class="news-card-date">
+                                    <i class="fa-solid fa-calendar-days"></i> 21 - 10 - 2025
+                                </div>
+                                <h3 class="news-card-title">[Ra mắt] Khóa học “Toán Học Hay – 50 chủ đề luyện tập vững vàng nền tảng”</h3>
+                            </div>
+                        </div>
+
+                        <!-- Bài 3 -->
+                        <div class="news-card">
+                            <img src="<c:url value='/assets/images/ảnh bìa bản tin (1).svg'/>" alt="Cập nhật tính năng">
+                            <div class="news-card-content">
+                                <div class="news-card-date">
+                                    <i class="fa-solid fa-calendar-days"></i> 17 - 10 - 2025
+                                </div>
+                                <h3 class="news-card-title">[Thông báo] Cập nhật các tính năng hỗ trợ đến phụ huynh học sinh từ ToanHocHay</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="new-courses">
                 <h2 style="
                     font-family: 'Segoe UI', Arial, sans-serif;
                     font-size: 48px;
                     font-weight: 800;
-                    color: #4A00E0;
+                    color: #0066cc;
                     ">Khóa học nổi bật</h2>
                 <div class="container">
                     <div class="courses-grid">
@@ -222,12 +270,11 @@
                     <div class="footer-logo">
                         <%-- Replace with your actual logo image --%>
                         <img src="<c:url value='/assets/images/logo_footer.png'/>" alt="ToanHocHay Logo">
-                        <p>Nền tảng học Toán Online hiệu quả cho học sinh cấp 2.</p>
+                        <p style="font-family: 'Segoe UI', Arial, sans-serif;">Nền tảng học Toán Online hiệu quả cho học sinh cấp 2.</p>
                     </div>
                     <div class="footer-links">
-                        <h4>Liên kết nhanh</h4>
+                        <h4>Về chúng tôi</h4>
                         <ul>
-                            <li><a href="#">Về chúng tôi</a></li>
                             <li><a href="#">Câu hỏi thường gặp</a></li>
                             <li><a href="#">Chính sách bảo mật</a></li>
                             <li><a href="#">Điều khoản sử dụng</a></li>

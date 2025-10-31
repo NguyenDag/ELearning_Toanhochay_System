@@ -761,40 +761,46 @@
     <body>
         <%-- GIẢ LẬP DỮ LIỆU TỪ SERVLET --%>
     <c:if test="${empty quiz}">
-        <c:set var="quizTitle" value="Đề kiểm tra giữa học kỳ 1 lớp 6"/>
-        <c:set var="quizTime" value="30"/>
-        <jsp:useBean id="questions" scope="page" class="java.util.ArrayList"/>
-        <%-- Question 1 --%>
-        <jsp:useBean id="q1" scope="page" class="java.util.HashMap"/>
-        <c:set target="${q1}" property="id" value="1"/>
-        <c:set target="${q1}" property="text" value="Trong Java, interface nào là gốc của tất cả các Collection?"/>
-        <c:set target="${q1}" property="choices" value="${['List', 'Collection', 'Set', 'Iterable']}"/>
-        <% questions.add(q1); %>
-        <%-- Question 2 --%>
-        <jsp:useBean id="q2" scope="page" class="java.util.HashMap"/>
-        <c:set target="${q2}" property="id" value="2"/>
-        <c:set target="${q2}" property="text" value="Từ khóa 'final' có thể được áp dụng cho thành phần nào sau đây?"/>
-        <c:set target="${q2}" property="choices" value="${['Biến', 'Phương thức', 'Lớp', 'Tất cả các đáp án trên']}"/>
-        <% questions.add(q2); %>
-        <%-- Question 3 --%>
-        <jsp:useBean id="q3" scope="page" class="java.util.HashMap"/>
-        <c:set target="${q3}" property="id" value="3"/>
-        <c:set target="${q3}" property="text" value="Phương thức nào được gọi tự động khi một đối tượng được tạo?"/>
-        <c:set target="${q3}" property="choices" value="${['Constructor', 'Destructor', 'Finalize', 'Initialize']}"/>
-        <% questions.add(q3); %>
-        <%-- Question 4 --%>
-        <jsp:useBean id="q4" scope="page" class="java.util.HashMap"/>
-        <c:set target="${q4}" property="id" value="4"/>
-        <c:set target="${q4}" property="text" value="Đâu là một checked exception trong Java?"/>
-        <c:set target="${q4}" property="choices" value="${['RuntimeException', 'NullPointerException', 'IOException', 'ArrayIndexOutOfBoundsException']}"/>
-        <% questions.add(q4); %>
-        <%-- Question 5 --%>
-        <jsp:useBean id="q5" scope="page" class="java.util.HashMap"/>
-        <c:set target="${q5}" property="id" value="5"/>
-        <c:set target="${q5}" property="text" value="Lớp nào dùng để đọc dữ liệu từ một file?"/>
-        <c:set target="${q5}" property="choices" value="${['FileWriter', 'FileInputStream', 'FileScanner', 'FileBuffer']}"/>
-        <% questions.add(q5); %>
-    </c:if>
+    <c:set var="quizTitle" value="Đề kiểm tra giữa học kỳ 1 môn Toán lớp 6"/>
+    <c:set var="quizTime" value="30"/>
+    <jsp:useBean id="questions" scope="page" class="java.util.ArrayList"/>
+
+    <%-- Câu 1 --%>
+    <jsp:useBean id="q1" scope="page" class="java.util.HashMap"/>
+    <c:set target="${q1}" property="id" value="1"/>
+    <c:set target="${q1}" property="text" value="Số đối của -7 là số nào?"/>
+    <c:set target="${q1}" property="choices" value="${['-7', '0', '7', '1']}"/>
+    <% questions.add(q1); %>
+
+    <%-- Câu 2 --%>
+    <jsp:useBean id="q2" scope="page" class="java.util.HashMap"/>
+    <c:set target="${q2}" property="id" value="2"/>
+    <c:set target="${q2}" property="text" value="Số nhỏ nhất có ba chữ số là số nào?"/>
+    <c:set target="${q2}" property="choices" value="${['99', '100', '101', '110']}"/>
+    <% questions.add(q2); %>
+
+    <%-- Câu 3 --%>
+    <jsp:useBean id="q3" scope="page" class="java.util.HashMap"/>
+    <c:set target="${q3}" property="id" value="3"/>
+    <c:set target="${q3}" property="text" value="Một hình vuông có cạnh 5 cm. Chu vi của hình vuông đó là bao nhiêu?"/>
+    <c:set target="${q3}" property="choices" value="${['10 cm', '15 cm', '20 cm', '25 cm']}"/>
+    <% questions.add(q3); %>
+
+    <%-- Câu 4 --%>
+    <jsp:useBean id="q4" scope="page" class="java.util.HashMap"/>
+    <c:set target="${q4}" property="id" value="4"/>
+    <c:set target="${q4}" property="text" value="Tổng của các góc trong một tam giác bằng bao nhiêu độ?"/>
+    <c:set target="${q4}" property="choices" value="${['90°', '120°', '180°', '360°']}"/>
+    <% questions.add(q4); %>
+
+    <%-- Câu 5 --%>
+    <jsp:useBean id="q5" scope="page" class="java.util.HashMap"/>
+    <c:set target="${q5}" property="id" value="5"/>
+    <c:set target="${q5}" property="text" value="Phân số nào bằng 1/2?"/>
+    <c:set target="${q5}" property="choices" value="${['2/4', '3/4', '4/6', '1/3']}"/>
+    <% questions.add(q5); %>
+</c:if>
+
 
     <div class="quiz-layout">
         <aside class="side-panel">

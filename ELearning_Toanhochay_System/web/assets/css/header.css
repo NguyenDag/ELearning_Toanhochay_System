@@ -67,7 +67,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     height: var(--header-top-height);
-    margin-top: 35px;
+    margin-top: 40px;
 
     /* <<<< NOTE: XÓA HOẶC COMMENT LẠI DÒNG NÀY ĐỂ BỎ ĐƯỜNG KẺ */
     /* border-bottom: 1px solid var(--border-color); */
@@ -230,7 +230,7 @@ body {
     justify-content: space-between;
     padding: 10px 15px;
     color: var(--text-dark);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
     position: relative;
@@ -274,7 +274,7 @@ body {
     padding: 10px 15px;
     color: var(--text-dark);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     transition: background-color 0.3s, color 0.3s;
     cursor: pointer;
     white-space: nowrap;
